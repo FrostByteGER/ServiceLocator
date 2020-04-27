@@ -2,6 +2,21 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
+    <Authors>Kevin Kügler</Authors>
+    <Product>ZenServiceLocator</Product>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/FrostByteGER/ZenServiceLocator</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/FrostByteGER/ZenServiceLocator</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <Version>0.9.0</Version>
+    <Description>Simple C# Service Locator</Description>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
